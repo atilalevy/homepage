@@ -1,0 +1,33 @@
+.main-container{
+    display: grid;
+
+    grid-template-rows: 50px auto;
+    grid-template-columns: 50% 50%;
+
+    grid-template-areas: 
+        'header header'
+        'article-left article-right'
+    ;
+}
+
+.header {
+    grid-area: header;
+    height: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.article-left{
+    grid-area: article-left;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.article-right {
+    grid-area: article-right;
+
+    align-items: center;
+    justify-content: center;
+}
