@@ -1,0 +1,51 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 100px;
+}
+
+.article-title {
+    font-size: var(--large-font-size);
+    font-weight: bold;
+}
+
+.article-art {
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.description-div {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.article-description {
+    font-size: var(--small-font-size);
+}
+
+.description-link {
+    background-color: var(--black);
+    padding: 5px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-methods-div {
+    display: flex;
+
+    margin-top: 30px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.flags-logo {
+    width: 100px;
+    margin-right: 40px;
+}

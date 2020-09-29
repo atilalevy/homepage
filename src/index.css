@@ -2,6 +2,10 @@
   --black: #000;
   --white: #fff;
   --light-gray: #A1AC9C;
+
+  --large-font-size: 60px;
+  --medium-font-size: 40px;
+  --small-font-size: 18px;
 }
 
 body {

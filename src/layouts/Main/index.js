@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 
 import Header from '../../components/Header';
+import Article from '../../components/Article';
+
 import art from '../../assets/images/art.png';
 import art2 from '../../assets/images/art02.png';
 
@@ -18,7 +20,7 @@ const Main = () => {
             </div>
 
             <div className="article">
-                
+                <Article />
             </div>
 
             <div className="art-right-div">
