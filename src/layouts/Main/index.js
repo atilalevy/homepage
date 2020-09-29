@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 
 import Header from '../../components/Header';
+import art from '../../assets/images/art.png';
+import art2 from '../../assets/images/art02.png';
 
 const Main = () => {
     return(
@@ -11,12 +13,16 @@ const Main = () => {
                 <Header />
             </div>
 
-            <div className="article-left">
+            <div className="art-left-div">
+                <img src={art} alt="Art" className="art-image" />
+            </div>
+
+            <div className="article">
                 
             </div>
 
-            <div className="article-right">
-                
+            <div className="art-right-div">
+                <img src={art2} alt="Art2" className="art2-image" />
             </div>
 
         </div>
