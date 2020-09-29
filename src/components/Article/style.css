@@ -29,11 +29,13 @@
 
 .article-description {
     font-size: var(--small-font-size);
+    text-align: justify;
 }
 
 .description-link {
     background-color: var(--black);
     padding: 5px;
+    margin-left: 10px;
 
     align-items: center;
     justify-content: center;
