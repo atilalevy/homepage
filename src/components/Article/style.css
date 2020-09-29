@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
 
-    padding-right: 100px;
+    padding-right: 200px;
 }
 
 .article-title {
@@ -11,10 +11,13 @@
 }
 
 .article-art {
-    width: 50px;
+    width: 60px;
+
+    margin-right: 10px;
     margin-top: 15px;
-    margin-right: 20px;
-    position: absolute;
+
+
+    float: left;
 }
 
 .description-div {
@@ -36,10 +39,15 @@
     justify-content: center;
 }
 
+hr {
+    width: 100%;
+    background-color: var(--light-gray);
+}
+
 .payment-methods-div {
     display: flex;
 
-    margin-top: 30px;
+    margin-top: 10px;
 
     align-items: center;
     justify-content: center;
@@ -48,4 +56,8 @@
 .flags-logo {
     width: 100px;
     margin-right: 40px;
+}
+
+a:hover {
+    color: var(--light-gray);
 }
